@@ -2,6 +2,7 @@ import  sys
 import  first
 from PyQt5.QtWidgets import  QApplication,QMainWindow,QDesktopWidget
 from PyQt5.QtGui import QIcon
+from PyQt5.QtWebEngineWidgets import QWebEngineView
 
 class MainWindow(QMainWindow,first.Ui_MainWindow):
     def __init__(self, parent=None):
